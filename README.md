@@ -1,4 +1,4 @@
-# sistema-assinatura
+# sistema-assinatura by: Huank
 # 🖋️ Sistema de Assinatura Digital de Documentos PDF
 
 Este projeto implementa um **fluxo de trabalho completo** para recebimento, notificação e coleta de múltiplas assinaturas em documentos PDF, utilizando um backend robusto em Node.js e TypeScript.
@@ -40,4 +40,4 @@ npm install express multer pdf-lib sqlite sqlite3 nodemailer
 npm install -D @types/node @types/express @types/multer @types/sqlite3 typescript ts-node
 
 
-by: Huank
+
