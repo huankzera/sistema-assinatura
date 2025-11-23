@@ -1,0 +1,27 @@
+{
+  "name": "sistema-assinatura",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@types/express": "^5.0.5",
+    "@types/nodemailer": "^7.0.4",
+    "@types/sqlite3": "^3.1.11",
+    "express": "^5.1.0",
+    "multer": "^2.0.2",
+    "nodemailer": "^7.0.10",
+    "pdf-lib": "^1.17.1",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "@types/multer": "^2.0.0"
+  }
+}

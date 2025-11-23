@@ -1,0 +1,37 @@
+{
+  "compilerOptions": {
+    /* 1. Configurações Fundamentais (ES Modules) */
+    "target": "ES2022", 
+    "module": "NodeNext", 
+    "moduleResolution": "NodeNext",
+    
+    // Caminhos de entrada e saída
+    "rootDir": "./", 
+    "outDir": "./dist", 
+
+    /* CORREÇÃO FINAL: Adicionar 'noEmit: true' */
+    "noEmit": true, // <--- ADICIONE ISTO!
+    "allowImportingTsExtensions": true, 
+    
+    /* 2. Correção de Mapeamento de Caminho */
+    "baseUrl": ".",
+    "paths": {
+      "*.js": [
+        "*"
+      ]
+    },
+
+    /* 3. Segurança e Strictness (Recomendado) */
+    "strict": true, 
+    "noImplicitAny": true,
+    "esModuleInterop": true, 
+    "skipLibCheck": true, 
+    "lib": ["ES2022"],
+    "types": ["node"],
+    
+    // ... (o restante das suas configurações)
+  },
+  
+  "include": ["**/*.ts"],
+  "exclude": ["node_modules"]
+}
